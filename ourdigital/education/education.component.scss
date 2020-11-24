@@ -1,0 +1,28 @@
+#myVideo {right: 0;bottom: 0;min-width: 100%; min-height: 100vh;
+    z-index: -1;
+  }
+  .content {position: absolute;color: #f1f1f1;width: 100%;padding: 20px;top: 300px;
+    
+  }
+  .content h1 {font-size: 5vw; }
+  .content p { font-size: 2vw; color: whitesmoke;}
+  .content button { font-weight: bold; padding: 10px 20px; border-radius: 15px; background-color: #40c4ff; border: 1px solid #aaa; box-shadow: 2px 2px 5px 0; }
+  
+  @media  (max-width: 768px){
+      .content{top: 200px;}
+      .content h1 {font-size: 8vw; }
+      .content p { font-size: 5vw; color: whitesmoke;}
+  }
+
+
+
+// .topContainer h2 { font-weight: bold;font-size: 6vw;color: #fff}
+// .topContainer h1 {padding-top: 250px;}
+// .topContainer p { color: #fff; font-weight: bold; font-size: 1.5vw; }
+.individualBlock ul li { list-style-type: disc; margin-left: 20px; padding: 10px 0; font-size: 18px; }
+.individualBlock { color: #111; margin-bottom: 100px; margin: 0; }
+// .topContainer h2 { font-size: 36px; margin-bottom: 60px; }
+// .topContainer { padding-left: 45px; }
+
+.for-you {padding-left: 45px; }
+.for-you h2 { text-align: center; margin-bottom: 20px; }
